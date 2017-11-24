@@ -1,0 +1,20 @@
+{
+  "name": "serverAlMundo",
+  "version": "0.0.2",
+  "description": "Prueba tecnica almundo",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "moment": "^2.18.1",
+    "request": "^2.83.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anibalajt",
+  "license": "ISC"
+}
