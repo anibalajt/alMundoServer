@@ -8,8 +8,8 @@ const api               = express.Router();
 
 
 //Rutas publicas
-api.get('/getHotel', hotel.getHotel);
-api.get('/getHotels', hotels.getHotels);
-api.get('/getLocation', location.getLocation);
+api.get('/getHotel', hotel.getHotel);//cargamos la descripcion del hotel
+api.get('/getHotels', hotels.getHotels);//buscamos los hoteles disponibles de una ciudad
+api.get('/getLocation', location.getLocation);//buscamos ciudades
 
 module.exports = api;

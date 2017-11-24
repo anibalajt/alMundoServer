@@ -1,10 +1,10 @@
 'use strict'
 const _                       = require('underscore');
 const Get                     = require('../services');
-
+/******************************************************************************/
+/**************************Cargar la lista de hoteles ************************/
+/******************************************************************************/
 function getHotels(req, res){
-  console.log("getHotels ",req.query);
-
   var options = {
     method: 'GET',
     url: encodeURI(`https://almundo.com.co/hotels/async/${req.query.city}/hotels`),
